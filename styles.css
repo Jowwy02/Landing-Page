@@ -9,3 +9,22 @@
     --button-color: #3882f6;
     --info-text: #1f2937;
   }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  .logo {
+    color: white;
+    text-decoration: none;
+    width: 100px;
+  }
+  
+  .logo > img {
+    width: 100%;
+  }
