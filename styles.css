@@ -24,7 +24,34 @@
     text-decoration: none;
     width: 100px;
   }
-  
+
   .logo > img {
     width: 100%;
   }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 0 5rem 0 5rem;
+    height: 3rem;
+    background-color: var(--dark-background);
+    font-family: var(--inter);
+  }
+  
+  .nav-icons {
+    display: flex;
+  }
+  
+  .nav-icons > li {
+    margin-left: 2rem;
+  }
+  li {
+    list-style: none;
+  }
+  
+  .nav-icons a {
+    color: var(--hero-sec);
+  }
+  
