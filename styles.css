@@ -103,4 +103,77 @@
   .sign-up-btn {
     margin-top: 1rem;
   }
-  
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .teachers-img{
+    display: flex;
+    /* align-items: center; */
+    /* margin: 500rem; */
+  }
+  .teacher{
+    /* width: 1000px; */
+    /* height: 200px; */
+    /* position: absolute; */
+  }
+ .img-teacher {
+  width: 200px;
+  overflow: hidden;
+  /* width: 128px; */
+  height: 200px;
+ }
+
+
+ .teachers-img li {
+  width: 200px;
+  overflow: hidden;
+  padding-left: 30px;
+ }
+
+
+.teachers-img li img {
+  width: 100%;
+}
+
+.teachers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  flex-direction: column;
+
+}
+.teachers > h2 {
+ margin-bottom: 70px;
+ font-size: 36px;
+ font-style: var(--info-text);
+}
+
+.article {
+  background-color: var(--hero-sec);
+ 
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  align-items: center;
+}
+
+.quote > p {
+  font-family: var(--crete);
+  font-size: 30px;
+  margin-top: 100px;
+}
+.quote > span {
+  align-self: flex-end;
+  margin-right: 90px;
+  font-family: var(--inter);
+  font-size: 28px;
+  font-style: var(--info-text);
+
+}
