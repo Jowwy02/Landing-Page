@@ -36,6 +36,8 @@ a {
   align-items: center;
   padding: 0 5rem 0 5rem;
   height: 3rem;
+  padding-top: 30px;
+  /* padding-bottom: 50px; */
   background-color: var(--dark-background);
   font-family: var(--inter);
 }
@@ -59,16 +61,18 @@ li {
   display: flex;
   background-color: var(--dark-background);
   column-gap: 1rem;
+  padding: 100px;
+  align-items: center;
 }
 
 .headline > div {
   flex: 1;
+  height: fit-content;
 }
 .headline-image {
   width: 200px;
-  height: 16rem;
-  overflow: hidden;
-  margin-bottom: 4rem;
+  /* height: 16rem; */
+  /* overflow: hidden; */
 }
 .headline-image > img {
   width: 100%;
@@ -86,13 +90,17 @@ section {
 }
 
 .headline-text > p {
+  display: flex;
+  align-items: center;
   color: var(--hero-sec);
   margin-top: 1.5rem;
+  font-size: 20px;
 }
 
 .btn {
   background-color: var(--button-color);
   padding: 0.5rem 1rem;
+  border: none;
   border-radius: 5px;
   color: var(--hero-sec);
 }
@@ -205,7 +213,7 @@ span {
 .footer {
   display: flex;
   justify-content: center;
-  /* align-content: center; */
+  /* align-items: center; */
   height: 90px;
   width: 100%;
   background-color: var(--dark-background);
