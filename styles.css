@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;700;800&display=swap");
+
+:root {
+  --inter: "Inter", sans-serif;
+  --crete: "Crete Round", serif;
+  --dark-background: #1f2937;
+  --hero-color: #f9faf8;
+  --hero-sec: #e5e7eb;
+  --button-color: #3882f6;
+  --info-text: #1f2937;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+  width: 80px;
+}
+
+.logo > img {
+  width: 80%;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem 0 5rem;
+  height: 3rem;
+  padding-top: 30px;
+  background-color: var(--dark-background);
+  font-family: var(--inter);
+}
+
+.nav-icons {
+  display: flex;
+}
+
+.nav-icons > li {
+  margin-left: 2rem;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-icons a {
+  color: var(--hero-sec);
+}
+
+.headline {
+  display: flex;
+  background-color: var(--dark-background);
+  column-gap: 1rem;
+  padding: 100px;
+  align-items: center;
+}
+
+.headline > div {
+  flex: 1;
+  height: fit-content;
+}
+
+.headline-image {
+  width: 200px;
+}
+
+.headline-image > img {
+  width: 100%;
+}
+
+.headline-text > h1 {
+  font-family: var(--crete);
+  font-size: 48px;
+  font-weight: 800;
+  color: var(--hero-color);
+}
+
+.headline-text > p {
+  display: flex;
+  align-items: center;
+  color: var(--hero-sec);
+  margin-top: 1.5rem;
+  font-size: 20px;
+}
+
+.btn {
+  background-color: var(--button-color);
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  color: var(--hero-sec);
+}
+
+.sign-up-btn {
+  margin-top: 1rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teachers-img {
+  display: flex;
+}
+
+.img-teacher {
+  border: 5px solid var(--button-color);
+  width: 200px;
+  overflow: hidden;
+  height: 200px;
+  border-radius: 40px;
+}
+
+.teachers-img li {
+  width: 200px;
+  overflow: hidden;
+  margin: 0 30px;
+}
+
+.teachers-img li img {
+  width: 100%;
+}
+
+.teachers-img p {
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.teachers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  flex-direction: column;
+}
+
+.teachers > h2 {
+  margin-bottom: 70px;
+  font-size: 36px;
+  font-style: var(--info-text);
+}
+
+.article {
+  background-color: var(--hero-sec);
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  align-items: center;
+}
+
+.quote > p {
+  font-family: var(--crete);
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+.quote > span {
+  align-self: flex-end;
+  margin-right: 280px;
+  font-family: var(--inter);
+  font-size: 22px;
+  font-style: var(--info-text);
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.sign-up {
+  display: flex;
+  color: var(--hero-color);
+  padding: 90px;
+  justify-content: center;
+}
+
+.text{
+  display: flex;
+  background-color: var(--button-color);
+  width: 80%;
+  height: 100px;
+  padding: 30px;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+span {
+  font-size: 23px;
+}
+
+.btn-signup button {
+  padding: 10px 25px;
+  background-color: var(--button-color);
+  font-weight: 800;
+  border-radius: 5px;
+  color: var(--hero-sec);
+  border: solid 1px var(--hero-sec);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  height: 90px;
+  width: 100%;
+  background-color: var(--dark-background);
+  padding-top: 40px;
+  font-weight: bold;
+  font-style: var(--crete);
+}
+
+.footer > p {
+  color: var(--hero-sec);
+  font-size: 20px;
+}
